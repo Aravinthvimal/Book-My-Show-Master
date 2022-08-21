@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.slick-slider {
+    touch-action: auto;
+    -ms-touch-action: auto;
+}
+
+.slick-dots {
+    position: relative;
+    bottom: 2% !important;
+}
+
+.slick-dots li button:before {
+    color: white !important;
+}
